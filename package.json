@@ -1,0 +1,17 @@
+{
+  "name": "google-otp-decoder",
+  "version": "1.0.0",
+  "description": "extract secret from google otp backup qr code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "base32-encode": "^2.0.0",
+    "protobufjs": "^7.2.5"
+  }
+}
