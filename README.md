@@ -11,6 +11,15 @@ npm i
 npm start otpauth-migration://offline?data=...
 ```
 
+## Why I made it
+- Safety
+  - not save or send user's data
+- Few dependency:
+  - it only depends on 2 reliable package
+  - fewer package fewer security hole
+- Simple code
+  - can know it dosen't do suspicious behavior
+
 ## How it works
 1. get data value from 'otpauth-migration://offline?data=[value]'
 2. url decode
